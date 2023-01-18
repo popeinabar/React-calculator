@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+
+.body{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#ac{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  /* border-right: none; */
+  width: 40%;
+  height: 100%;
+}
+#del{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 40%;
+  height: 100%;
+}
+
+.remove {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  grid-template-columns: repeat(2,1fr);
+  background-color: blue;
+  height: 10vh;
+  font-size: 25px;
+  padding: 1rem;
+}
+
+
+
+.number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 142, 31);
+  margin: 3%;
+  font-size: 40px;
+  height: 10vh;
+  cursor: pointer;
+}
+
+.set{
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  
+  
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.cal{
+  padding: 1rem;
+  height: 18vh;
+  width: 28vw;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.main {
+  padding: 1rem;
+  height: 57vh;
+  width: 28vw;
+  background-color: darkcyan;
+}
